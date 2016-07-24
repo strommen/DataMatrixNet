@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMatrix.net", "DataMatrix.net\DataMatrix.net.csproj", "{74E675E8-11CE-46DA-AEF4-AE7C996C4C62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMatrixTest", "DataMatrixTest\DataMatrixTest.csproj", "{741AA864-6017-41AE-A095-F49A0C84B625}"
@@ -8,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePdfCreator", "CodePdfCreator\CodePdfCreator.csproj", "{81B58214-8EE4-4B4D-8A52-8B93C60734E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeDataMatrix", "EncodeDataMatrix\EncodeDataMatrix.csproj", "{44793E42-8F3B-4AE8-8A75-5924BF4FB696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48B9E707-F70E-4C09-BD46-FD89B3D9ADD4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

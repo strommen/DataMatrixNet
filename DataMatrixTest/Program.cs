@@ -139,7 +139,7 @@ namespace DataMatrixTest
             options.MarginSize = 30;
             options.BackColor = Color.White;
             options.ForeColor = Color.Black;
-            options.Scheme = DmtxScheme.DmtxSchemeAsciiGS1;
+            options.Scheme = DmtxScheme.DmtxSchemeAscii;
             Bitmap encodedBitmap1 = encoder.EncodeImage(gs1Code1, options);
             encodedBitmap1.Save(fileName1, ImageFormat.Png);
             Bitmap encodedBitmap2 = encoder.EncodeImage(gs1Code2, options);

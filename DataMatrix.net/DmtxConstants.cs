@@ -325,7 +325,6 @@ namespace DataMatrix.net
         DmtxSchemeX12,
         DmtxSchemeEdifact,
         DmtxSchemeBase256,
-        DmtxSchemeAsciiGS1
     }
 
     internal enum DmtxMaskBit

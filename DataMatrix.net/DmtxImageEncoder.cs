@@ -89,6 +89,11 @@ namespace DataMatrix.net
 			{
 				encode.EncodeDataMatrix(options.ForeColor, options.BackColor, valAsByteArray);
 			}
+			if (encode.Image == null)
+			{
+				throw new System.Exception("Unable to encode data matrix");
+			}
+
 			return CopyDataToBitmap(encode.Image.Pxl, encode.Image.Width, encode.Image.Height);
 		}
 
